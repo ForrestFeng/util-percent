@@ -1,0 +1,15 @@
+[package]
+name = "percent"
+version = "0.1.0"
+authors = ["Forrest Feng <changzheng.feng@carestream.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+humansize = "1.1.0"
+pad = "0.1.6"
+clap = "2.33.0"
+
+[profile.release]
+panic = 'abort'
